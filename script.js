@@ -6,6 +6,7 @@ function scoping(){
     //closure
     return function(){
         likes++;
+        console.log(`${postname} Got ${likes}`)
     }
 }
 
